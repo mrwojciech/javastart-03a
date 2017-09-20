@@ -13,13 +13,13 @@ public class Device {
     }
 
     public Device(String code, String producer, String type, double price) {
-        this(code, producer,type):
+        this(code, producer, type);
         this.price = price;
     }
 
 
     public String getInfo() {
 
-        return "Kod: " + code +", producent: "+producer+", typ: "+type+", cena: "+price;
+        return "Kod: " + code + ", producent: " + producer + ", typ: " + type + ", cena: " + price;
     }
 }
